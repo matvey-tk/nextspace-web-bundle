@@ -1,0 +1,30 @@
+{
+  "name": "nextspace-web-bundle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "bundle": "webpack --config webpack.config.js",
+    "build": "npm run bundle"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.6",
+    "@babel/preset-env": "^7.22.6",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "glob": "^10.3.1",
+    "replace-in-file": "^7.0.1",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "bruce-cesium": "^2.0.2",
+    "bruce-models": "^2.4.7",
+    "cesium": "1.93",
+    "fast-glob": "^3.3.0",
+    "fs-extra": "^11.1.1"
+  }
+}
