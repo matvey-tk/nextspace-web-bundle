@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "bundle": "webpack --config webpack.config.js",
+    "update": "npm i bruce-models@latest && npm i bruce-cesium@latest",
     "build": "npm run bundle"
   },
   "keywords": [],
@@ -21,8 +22,8 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "bruce-cesium": "^2.0.4",
-    "bruce-models": "^2.5.1",
+    "bruce-cesium": "^2.0.9",
+    "bruce-models": "^2.5.2",
     "cesium": "1.93",
     "fast-glob": "^3.3.0",
     "fs-extra": "^11.1.1"
