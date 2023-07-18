@@ -22,7 +22,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "bruce-cesium": "^2.2.7",
+    "bruce-cesium": "^2.2.8",
     "bruce-models": "^2.6.9",
     "cesium": "1.93",
     "fast-glob": "^3.3.0",
