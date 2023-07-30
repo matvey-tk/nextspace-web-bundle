@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./dist/nextspace.js"></script>
+</head>
+<body>
+    <script>
+        // Setup global defaults.
+        BModels.ENVIRONMENT.PARAMS = {
+            ...BModels.ENVIRONMENT.PARAMS,
+            // Replace with your account ID.
+            accountId: "template"
+        }
+
+        // Get default api instance.
+        // Normally you'd never have to do this.
+        const api = BModels.ENVIRONMENT.Api().GetBruceApi();
+
+        // Perform a test request to see if both the library and communication to the API are working.
+        api.GET("test").then((res) => {
+            console.log("You've loaded the library!", res);
+        });
+    </script>
+</body>
+</html>
